@@ -1,0 +1,572 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.navbar {
+  /* background-color: yellow; */
+  height: 17vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.logo {
+  font-size: 32px;
+  font-weight: 400;
+}
+.nav-content a {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  cursor: pointer;
+  font-weight: 400;
+  height: 34.4px;
+}
+.nav-content a:hover {
+  color: rgb(115, 116, 118);
+  text-decoration: underline;
+  text-underline-offset: 0.8rem;
+}
+.nav-content {
+  display: flex;
+  gap: 25px;
+  position: relative;
+  margin-left: 200px;
+}
+
+
+/* Profile section */
+
+section {
+  padding-top: 4vh;
+  height: 96vh;
+  margin: 0 10rem;
+  box-sizing: border-box;
+  min-height: fit-content;
+  display: flex;
+  align-items: center;
+}
+#profile {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  height: 80vh;
+}
+.image img {
+  height: 400px;
+  border-radius: 50%;
+}
+.linkedin {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  cursor: pointer;
+}
+
+.text-content {
+  height: 253.6px;
+  width: 279.45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.text-content h4 {
+  width: 279.45px;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  color: #545454ff;
+}
+.text-content #name {
+  height: 72px;
+  width: 279.45px;
+  font-weight: 700;
+  font-size: 48px;
+  text-align: center;
+  
+}
+.text-content #work {
+  height: 42.4px;
+  font-size: 28px;
+  text-align: center;
+  font-weight: 600;
+  color: #545454ff;
+}
+.btns button {
+  height: 51.2px;
+  width: 128px;
+  border-radius: 30px;
+  font-size: 13.3px;
+  font-weight: 600;
+  border: 2px solid #363636ff;
+  cursor: pointer;
+  
+}
+
+.linkedin img {
+  height: 32px;
+  width: 32px;
+}
+
+.btns {
+  display: flex;
+  justify-content: space-evenly;
+}
+.btns #btn2{
+    background-color: #363636ff;
+    color: white;
+    border: none;
+    outline: none;
+}
+.btns #btn1{
+    background-color: white;
+}
+
+/* About me section */
+
+#About-me{
+  height: 744.95px;
+  display: flex;
+  flex-direction: column;
+}
+#getto{
+  height: 24px;
+  width: 1199.2px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+}
+#about{
+  height: 72px;
+  width: 1199.2px;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+}
+.content{
+  height: 571.13px;
+  width: 1199.2px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content img{
+  height: 400px;
+  width: 400px;
+  border-radius: 25px;
+}
+.experience{
+  height: 571.13px;
+  width: 735.2px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.first-box{
+  height: 165.6px;
+ display: flex;
+  width: 735.2px;
+  justify-content: space-between;
+}
+.second-box{
+  height: 120px;
+  /* background-color: blue; */
+  width: 735.2px;
+}
+.frontend{
+  height: 165.6px;
+  border: 2px solid grey;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 351.6px;
+}
+.masters{
+  height: 165.6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 351.6px;
+  border: 2px solid grey;
+
+  border-radius: 25px;
+}
+.frontend img, .masters img{
+  height: 32px;
+  width: 32px;
+
+}
+.frontend #one, .masters #one{
+  height: 28px;
+  width: 271.9px;
+  text-align: center;
+  font-size: 18.72px;
+  font-weight: 700;
+}
+.Experience{
+  height: 744.95px;
+  display: flex;
+  flex-direction: column;
+}
+.Experience #explore{
+  height: 24px;
+  width: 1199.2px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+}
+#exper{
+  height: 72px;
+  width: 1199.2px;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+}
+.real{
+  height: 425.6px;
+  width: 1199.2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box{
+  height: 361.6px;
+  width: 1199.2px;
+
+  display: flex;
+  justify-content: space-between;
+}
+.box1, .box2{
+  height: 361.6px;
+  width: 583.6px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border: 2px solid grey;
+  align-items: center;
+}
+.box1 p, .box2 p{
+  height: 42.4px;
+  text-align: center;
+  font-size: 28px;
+  color: grey;
+  font-weight: 600;
+  width: 532.4px;
+}
+.one{
+height: 236px;
+width: 532.4px;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+
+}
+.two{
+  height: 236px;
+  width: 532.4px;
+  flex-direction: column;
+  justify-content: space-evenly;
+  display: flex;
+}
+.list1{
+  height: 52px;
+  width: 532.4px;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 80px;
+}
+.html, .css{
+  height: 52px;
+  width: 160px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.html img, .css img{
+  height: 32px;
+  width: 32px;
+}
+.para1, .para2{
+  height: 52px;
+  width: 97.13px;
+
+
+}
+.para1 #p1, .para2 #p1{
+  height: 28px;
+  width: 97.13px;
+  font-size: 18.72px;
+  color: black;
+  display: flex;
+  justify-content: flex-start;
+  font-weight: 700;
+}
+.para1 #p2, .para2 #p2{
+  height: 24px;
+  width: 97.13px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.list2{
+  height: 52px;
+  width: 532.4px;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 80px;
+}
+.list3{
+  height: 52px;
+  width: 532.4px;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 80px;
+}
+
+/* Projects section */
+
+.projects{
+  height: 744.95px;
+  width: 1199.2px;
+  display: flex;
+  flex-direction: column;
+}
+.projects #Browse{
+  height: 24px;
+  width: 1199.2px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+}
+.projects #pro{
+  height: 72px;
+  width: 1199.2px;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+}
+.projects .cont{
+  height: 535.28px;
+  width: 1199.2px;
+  display: flex;
+  align-items: center;
+}
+.projects .cont1{
+  height: 471.27px;
+  width: 1199.2px;
+
+  display: flex;
+  justify-content: space-between;
+}
+.card1{
+  height: 471.27px;
+  width: 378.4px;
+  border: 2px solid grey;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.card2{
+  height: 471.27px;
+  width: 378.4px;
+  border: 2px solid grey;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.card3{
+  height: 471.27px;
+  width: 378.4px;
+  border: 2px solid grey;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.card1 #project-one{
+  height: 42.4px;
+  width: 295.2px;
+  font-size: 28px;
+  font-weight: 600;
+  text-align: center;
+}
+.card2 #project-one{
+  height: 42.4px;
+  width: 295.2px;
+  font-size: 28px;
+  font-weight: 600;
+  text-align: center;
+}
+.card3 #project-one{
+  height: 42.4px;
+  width: 295.2px;
+  font-size: 28px;
+  font-weight: 600;
+  text-align: center;
+}
+.projectone-git{
+  height: 51.2px;
+  width: 327.2px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.card1 img{
+  height: 294.48px;
+  width: 294.48px;
+  border-radius: 30px;
+}
+.card2 img{
+  height: 294.48px;
+  width: 294.48px;
+  border-radius: 30px;
+}
+.card3 img{
+  height: 294.48px;
+  width: 294.48px;
+  border-radius: 30px;
+}
+.projecttwo-git{
+  height: 51.2px;
+  width: 327.2px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.projectthree-git{
+  height: 51.2px;
+  width: 327.2px;
+  display: flex;
+
+  justify-content: space-evenly;
+
+}
+ #github,#github2, #github3, #demo, #demo2, #demo3{
+  height: 51.2px;
+  width: 128px;
+  border-radius: 30px;
+border: 2px solid grey;
+cursor: pointer;
+color: black;
+background-color: white;
+}
+#github:hover, #demo:hover, #github2:hover, #github3:hover #demo2:hover, #demo3:hover{
+background-color: rgb(42, 41, 41);
+color: white;
+}
+.contact{
+  height: 543.2px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+#get{
+  height: 24px;
+  width: 1199.2px;
+  text-align: center;
+}
+#me{
+  height: 72px;
+  width: 1192.2px;
+  font-size: 48px;
+  text-align: center;
+  font-weight: 700;
+}
+.email{
+  height: 91.2px;
+  border: 1px solid black;
+  width: 452.1px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+.ema{
+  width: 251.8px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+.link{
+  width: 117.1px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.ema img{
+  height: 40px;
+  width: 40px;
+}
+.mail{
+  height: 26.4px;
+  width: 203.8px;
+
+}
+.ema a{
+  text-decoration: none;
+  font-size: 19.2px;
+  color: black;
+}
+.link img{
+  height: 32px;
+  width: 32px;
+}
+.in{
+  height: 26.4px;
+  width: 77.1px;
+}
+.link a{
+  text-decoration: none;
+  font-size: 19.2px;
+  color: black;
+}
+
+/* Footer */
+footer{
+  height: 201.75px;
+
+}
+.first-section{
+  height: 131.1px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.second-section{
+  height: 24px;
+  text-align: center;
+}
+.coin{
+  height: 36.8px;
+  width: 489.71px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.coin a{
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 400;
+  color: black;
+}
+
+
+.coin a:hover {
+  color: rgb(115, 116, 118);
+  text-decoration: underline;
+  text-underline-offset: 0.8rem;
+}
